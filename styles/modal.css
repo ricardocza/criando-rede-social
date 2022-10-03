@@ -1,0 +1,45 @@
+.modal-wrapper {
+    background-color: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.modal-card {
+    width: 23rem;
+    max-width: 90%;
+    height: 70%;
+    padding: 2.5rem 1.5rem;
+    background-color: var(--color-white-fixed);
+    position: relative;
+    border-radius: var(--rounded-8px);
+    animation-name: animateModal;
+    animation-duration: 0.3s;
+}
+
+.close-button {
+    position: absolute;
+    height: 2.5rem;
+    width: 2.5rem;
+    top: 15px;
+    right: 15px;
+    border-radius: 50%;
+    background-color: var(--color-grey-5);
+    color: var(--color-grey-3);
+    cursor: pointer;
+}
+
+.preventScroll {
+    overflow-y: hidden;
+}
+
+@media (min-width: 700px) {
+    
+    .modal-card {
+        width: 50rem;
+        height: fit-content;
+        max-height: 70%;
+    }
+    
+}

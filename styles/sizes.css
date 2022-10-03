@@ -1,0 +1,33 @@
+.w-screen {
+    width: 100vw;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.w-max-content {
+    width: max-content;
+}
+
+.h-full {
+    height: 100%;
+}
+
+.main-container {
+    width: 90%;
+}
+
+.image-size img {
+    width: 3.25rem;
+    height: 3.25rem;
+    border-radius: 50%;    
+}
+
+.overflow-x {
+    overflow-x: auto;
+}
+
+.overflow-y {
+    overflow-y: auto;
+}

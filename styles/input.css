@@ -1,0 +1,25 @@
+input, textarea {
+    height: 3.25rem;
+    padding-left: 1.25rem;
+    color: var(--color-grey-2);
+    background-color: var(--color-white-fixed);
+    border: 2px solid var(--color-grey-4);
+    border-radius: var(--rounded-4px);
+    outline: none;
+    transition: 0.3s;
+    font-family: var(--font-family-1);
+    resize: none;
+}
+
+textarea {
+    height: 8.125rem;
+    padding-top: 16px;
+}
+
+input::placeholder {
+    color: var(--color-grey-3);
+}
+
+input:focus {
+    border: 2px solid var(--color-brand-1);
+}

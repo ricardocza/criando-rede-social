@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../styles/animations.css" />
+    <link rel="stylesheet" href="../../styles/flex.css" />
+    <link rel="stylesheet" href="../../styles/buttons.css" />
+    <link rel="stylesheet" href="../../styles/input.css" />
+    <link rel="stylesheet" href="../../styles/navbar.css" />
+    <link rel="stylesheet" href="../../styles/positions.css" />
+    <link rel="stylesheet" href="../../styles/sizes.css" />
+    <link rel="stylesheet" href="../../styles/fonts.css" />
+    <link rel="stylesheet" href="../../styles/spacings.css" />
+    <link rel="stylesheet" href="../../styles/globalStyles.css" />
+    <link rel="stylesheet" href="../../styles/borders.css" />
+    <link rel="stylesheet" href="../../styles/modal.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>TechPosters - Home</title>
+  </head>
+  <body class="w-screen font-1">
+    <nav class="navbar flex justify-space-between align-center w-screen ">
+      <a class="flex" href="../home/index.html">
+        <img src="../../assets/img/logo.svg" alt="Logo TechPosters">
+      </a>
+      <a href="../../index.html" class="navbar-link">Sair</a>
+    </nav>
+    <main class="flex flex-column gap40 main-container">
+      <header id="" class="flex flex-column gap20 header-desktop">
+        <div class="user flex flex-column gap20">
+          <div class="image-size">
+            <img src="../../assets/img/img-perfil.png" alt="Foto do perfil do usuário Ricardo do Vale">
+          </div>          
+          <div class="">
+            <h1 class="title2">Ricardo do Vale</h1>
+            <p class="text2">Front end Engineer</p>
+          </div>
+          <form class="flex flex-column gap20 align-flex-end" action="">
+            <input id="post-title" class="w-full font-1 b-radius4" style="font-family: var(--font-family1);" type="text" placeholder="Digitar título do post" required>
+            <textarea id="post-text" class="w-full b-radius4" placeholder="Digitar descrição do post "></textarea>
+            <button id="button-post" class="button-disable" type="submit">Postar</button>
+          </form>
+    
+        </div>
+        <aside id="sugestions" class="flex flex-column w-full gap20">
+          <h2>Sugestões para você seguir</h2>
+          <ul id="sugestion-list" class="flex gap20 overflow-x sugestion-list-desktop">
+            <div class="gradient-effect hide-gradient-sugestion"></div>
+          </ul>
+        </aside>
+      </header>
+
+      <section id="posts" class="flex flex-column gap20 posts-desktop">
+        <h3 class="title1">Posts</h3>
+        <ul class="posts-list flex flex-column gap40">
+          
+        </ul>
+      </section>
+    </main>
+  </body>
+  <script src="../../script/database/users.js"></script>
+  <script src="../../script/database/posts.js"></script>
+  <script src="../../script/database/sugestUsers.js"></script>
+  <script src="../../script/insertSugestUsers.js"></script>
+  <script src="../../script/insertPosts.js"></script>
+  <script src="../../script/modal.js"></script>
+  <script src="index.js"></script>
+</html>

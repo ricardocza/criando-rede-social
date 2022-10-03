@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../styles/globalStyles.css" />
+    <link rel="stylesheet" href="../../styles/flex.css" />
+    <link rel="stylesheet" href="../../styles/buttons.css" />
+    <link rel="stylesheet" href="../../styles/input.css" />
+    <link rel="stylesheet" href="../../styles/navbar.css" />
+    <link rel="stylesheet" href="../../styles/sizes.css" />
+    <link rel="stylesheet" href="../../styles/fonts.css" />
+    <link rel="stylesheet" href="../../styles/spacings.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="../../styles/animations.css" />
+
+    <title>TechPosters - Cadastro</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-items">
+      <a class="flex align-center" href="../login/index.html">
+        <img src="../../assets/img/logo.svg" alt="Logo TechPosters">
+      </a>
+      <ul class="navbar-menu-links">
+        <a href="../../index.html" class="navbar-link">Login</a>
+        <a href="../register/index.html" class="navbar-link actived">Registro</a>
+      </ul>
+    </nav>
+    <main class="flex flex-column w-screen align-flex-start gap20 box-shadow main-margin animate">
+      <header class="flex justify-space-between align-center w-full">
+        <h2 class="title1">Cadastro</h2>        
+        <button class="return-button button-outline">Voltar</button>
+      </header>
+      <form class="flex flex-column w-full gap20">
+        <input placeholder="Seu nome" type="text" required>
+        <input placeholder="Seu e-mail" type="text" required>
+        <input placeholder="Sua senha" type="password" required>
+        <input placeholder="Qual o seu trabalho" type="text" required>
+        <input placeholder="URL da imagem de pergil" type="url" required>
+        <button type="submit" class="button-primary">Registrar</button>
+      </form>
+      <footer class="w-full flex flex-column align-center gap20" >
+        <p>Já possui login?</p>
+        <button class="return-button w-full button-outline">Ir para página de login</button>
+      </footer>
+    </main>
+  </body>
+  <script src="index.js"></script>
+</html>

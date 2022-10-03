@@ -1,0 +1,7 @@
+.b-radius4 {
+    border-radius: var(--rounded-4px);
+}
+
+.b-radius8 {
+    border-radius: var(--rounded-8px);
+}

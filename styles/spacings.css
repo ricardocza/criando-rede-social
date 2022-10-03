@@ -1,0 +1,14 @@
+.h-padding {
+    padding: 0 20px;
+}
+
+.v-padding {
+    padding: 20px 0;
+}
+.main-margin {
+    margin: 100px auto;
+}
+
+.scrollX {
+    overflow-x: scroll;
+}
