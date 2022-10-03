@@ -3,7 +3,7 @@
 const regButton = document.getElementById('register-button')
 regButton.addEventListener('click', (event) => {
     event.preventDefault()
-    window.location.href = '../pages/register/index.html'
+    window.location.href = 'https://ricardocza.github.io/criando-rede-social/pages/register/index.html'
 })
 
 //BOTÃO LOGAR
@@ -15,5 +15,5 @@ loginButton.addEventListener('click', (e) => {
     let password = document.getElementById('password').value
     console.log(login)
 
-    if(login && password) window.location.href = '../pages/home/index.html'
+    if(login && password) window.location.href = 'https://ricardocza.github.io/criando-rede-social/pages/home/index.html'
 })
